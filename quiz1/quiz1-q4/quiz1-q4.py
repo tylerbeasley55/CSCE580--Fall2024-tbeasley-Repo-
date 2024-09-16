@@ -90,6 +90,6 @@ def datacleaning(file):
     print(by_city)
 
 
-path = 'C:\\Users\\tyler\\CSCE580-Fall2024-tbeasley-Repo\\quiz1\\quiz1-q4\\data\\DriverTraining-ForInClassLearning-2024.csv'
+path = './data/DriverTraining-ForInClassLearning-2024.csv'
 datacheck(path)
 datacleaning(path)
