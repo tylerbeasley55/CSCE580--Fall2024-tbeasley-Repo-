@@ -2,7 +2,6 @@ from tika import parser
 import os
 import glob
 import matplotlib.pyplot as plt
-import numpy as np
 
 
 def pdftotext (infile, outfile):
