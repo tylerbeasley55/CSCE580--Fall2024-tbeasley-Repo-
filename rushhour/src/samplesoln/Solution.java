@@ -9,7 +9,8 @@ package samplesoln;
 public class Solution extends rushhour.AbstractSolution {
   public Solution() {
     super(new ZeroHeuristic(),
-          new FamilyCarDist());
+          new FamilyCarDist(),
+          new BlockingCars());
   }
 
   // Use *exactly* this main method
