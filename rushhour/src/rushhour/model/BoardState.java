@@ -144,7 +144,7 @@ public class BoardState {
 
     return validMoves;
   }
-
+  
   /**
    *  Check whether a particular series of moves is a correct solution
    *  from this position.
