@@ -10,7 +10,11 @@ public class Solution extends rushhour.AbstractSolution {
   public Solution() {
     super(new ZeroHeuristic(),
           new FamilyCarDist(),
-          new BlockingCars());
+          new BlockingCars(),
+          new WeightedBlockingCars(),
+          new ClearPath(),
+          new EnhancedClearPath(),
+          new ClearPathWithLength());
   }
 
   // Use *exactly* this main method
