@@ -1,9 +1,11 @@
+// Written by Tyler Beasley for CSCE580 Project1
+
 package samplesoln;
 import rushhour.MovesFinder;
 import rushhour.model.BoardState;
 import rushhour.model.PlacedCar;
 
-// This heuristica adds the cost to move the blocking cars to the blocking cars heuristic function
+// This heuristic adds the cost to move the blocking cars to the blocking cars heuristic function
 
 public class EnhancedClearPath extends MovesFinder {
     public EnhancedClearPath() {

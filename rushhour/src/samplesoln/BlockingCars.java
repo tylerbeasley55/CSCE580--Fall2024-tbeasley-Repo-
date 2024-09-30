@@ -1,3 +1,4 @@
+// Written by Tyler Beasley for CSCE580 Project1
 package samplesoln;
 import rushhour.MovesFinder;
 import rushhour.model.BoardState;
