@@ -1,1 +1,3 @@
 *.csv
+/project2/fine_tuned_distilbert
+/project2/results
